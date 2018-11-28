@@ -1,0 +1,568 @@
+		body {
+			margin: 0;
+		}
+		
+		nav {
+			padding: 1% 0 0 0;
+			height: 10%;
+			width: 100%;
+			position: fixed;
+			background-color: #780000;
+			color: beige;
+			font-size: 14pt;
+			z-index: 25;
+			
+		}
+		
+		nav,
+		li {
+			display: inline;
+			list-style-type: none;
+			margin-right: 100px;
+			font-family: cursive;
+		}
+		
+		ul,
+		a {
+			text-decoration: none;
+			color: beige;
+		}
+		
+		li:hover {
+			color: goldenrod;
+		}
+		
+		nav,
+		ul {
+			float: right;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.main {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-color: #654321;
+		}
+		
+		.first-div {
+			height: 100%;
+			width: 100%;
+			background-image: url(../images/1.jpg);
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: top center;
+			opacity: 0.8;
+		}
+		
+		.first-text-div {
+			height: 50%;
+			width: 50%;
+			z-index: 2;
+			position: absolute;
+			top: 30%;
+			left: 7%;
+			
+		}
+		
+		b {
+			font-family: cursive;
+			font-size: 50pt;
+			position: absolute;
+			color: #780000;
+		}
+		
+		.mrg-date {
+			font-family: cursive;
+			font-size: 30pt;
+			position: absolute;
+			color: #780000;
+			top: 40%;
+			opacity: 0.8;
+		}
+		
+		.scnd-div {
+			height: 100%;
+			width: 100%;
+			background: repeating-linear-gradient(135deg, #606dbc, #606abc 3px, #465298 2px, #465298 10px);
+		}
+		
+		.scnd-text-div {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+		}
+		
+		.b1 {
+			font-family: Clarendon Blk BT;
+			font-size: 95pt;
+			position: absolute;
+			color: whitesmoke;
+			top: 15%;
+			left: 15%;
+		}
+		
+		.b2 {
+			font-family: Clarendon Blk BT;
+			font-size: 95pt;
+			position: absolute;
+			color: gold;
+			top: 35%;
+			left: 15%;
+		}
+		
+		.clock {
+			height: 12%;
+			width: 5.5%;
+			background-image: url(../images/clk.png);
+			background-repeat: no-repeat;
+			background-size: 70px 70px;
+			position: absolute;
+			top: 60%;
+			left: 15%;
+		}
+		
+		.clock-text {
+			height: 25%;
+			width: 12%;
+			position: absolute;
+			top: 52%;
+			left: 22%;
+		}
+		
+		.clock-text p {
+			font-family: cursive;
+			font-size: 40pt;
+			color: gold;
+			position: absolute;
+		}
+		
+		.loc {
+			height: 12%;
+			width: 5.5%;
+			background-image: url(../images/location.png);
+			background-repeat: no-repeat;
+			background-size: 70px 70px;
+			position: absolute;
+			top: 59%;
+			left: 38%;
+		}
+		
+		.loc-text {
+			height: 25%;
+			width: 12%;
+			position: absolute;
+			top: 52%;
+			left: 44%;
+		}
+		
+		.loc-text p {
+			font-family: cursive;
+			font-size: 40pt;
+			color: gold;
+			position: absolute;
+		}
+		
+		.when-detail {
+			height: 20%;
+			width: 20%;
+			position: absolute;
+			top: 71%;
+			left: 22%;
+		}
+		
+		.when-detail p {
+			font-family: cursive;
+			font-size: 14pt;
+			padding: 5px;
+			color: whitesmoke;
+			position: absolute;
+			line-height: 1.7;
+		}
+		
+		.where-detail {
+			height: 20%;
+			width: 20%;
+			position: absolute;
+			top: 71%;
+			left: 44%;
+		}
+		
+		.where-detail .p1 {
+			font-family: cursive;
+			font-size: 14pt;
+			padding: 5px;
+			color: whitesmoke;
+			position: absolute;
+			line-height: 1.7;
+		}
+		
+		.btn {
+			height: 7%;
+			width: 10%;
+			position: absolute;
+			top: 92%;
+			left: 22%;
+		}
+		
+		.btn input[type="submit"] {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-color: gold;
+			color: darkblue;
+		}
+		
+		.rsvp-form {
+			height: 100%;
+			width: 30%;
+			right: 0%;
+			background-color: #bdc5f7;
+			position: absolute;
+			opacity: 1;
+			top: 0%;
+			transition: width 3s;
+		}
+		
+		.rsvp-form h1 {
+			position: relative;
+			top: 10%;
+			font-family: cursive;
+			text-align: center;
+		}
+		
+		.btn input[type="submit"]:hover {
+			background-color: goldenrod;
+		}
+		
+		.thrd-div {
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			background-image: url(../images/2.jpg);
+			background-size: cover;
+			background-position: center center;
+			background-attachment: fixed;
+		}
+		
+		.four-div {
+			width: 100%;
+			height: 100%;
+			background: radial-gradient(rgb(215, 179, 40) 5%, rgba(0, 0, 0, 0) 5%), radial-gradient(rgb(215, 179, 40) 5%, rgba(0, 0, 0, 0) 25%), #ebc52a;
+			background-position: 0 0, 30px 30px;
+			background-size: 25px 25px;
+		}
+		
+		.four-b1 {
+			font-family: Clarendon Blk BT;
+			font-size: 75pt;
+			position: absolute;
+			color: #020c96;
+			top: 15%;
+			left: 15%;
+		}
+		
+		.four-b2 {
+			font-family: Clarendon Blk BT;
+			font-size: 75pt;
+			position: absolute;
+			color: white;
+			top: 35%;
+			left: 15%;
+		}
+		
+		.trans {
+			height: 12%;
+			width: 5.5%;
+			background-image: url(../images/trans.png);
+			background-repeat: no-repeat;
+			background-size: 70px 70px;
+			position: absolute;
+			top: 58%;
+			left: 15%;
+		}
+		
+		.trans-text {
+			height: 25%;
+			width: 12%;
+			position: absolute;
+			top: 50%;
+			left: 22%;
+		}
+		
+		.trans-text p {
+			font-family: cursive;
+			font-size: 35pt;
+			color: #020c96;
+			position: absolute;
+			top: 10%;
+		}
+		
+		.acc {
+			height: 12%;
+			width: 5.5%;
+			background-image: url(../images/acc.png);
+			background-repeat: no-repeat;
+			background-size: 60px 60px;
+			position: absolute;
+			top: 60%;
+			left: 48%;
+		}
+		
+		.acc-text {
+			height: 25%;
+			width: 12%;
+			position: absolute;
+			top: 50%;
+			left: 55%;
+		}
+		
+		.acc-text p {
+			font-family: cursive;
+			font-size: 35pt;
+			color: #020c96;
+			position: absolute;
+			top: 10%;
+		}
+		
+		.trans-detail {
+			height: 20%;
+			width: 20%;
+			position: absolute;
+			top: 71%;
+			left: 22%;
+		}
+		
+		.trans-detail p {
+			font-size: 12pt;
+			padding: 5px;
+			color: #ffffff;
+			position: absolute;
+			line-height: 1.7;
+			font-family: cursive;
+		}
+		
+		.acc-detail {
+			height: 20%;
+			width: 20%;
+			position: absolute;
+			top: 71%;
+			left: 55%;
+		}
+		
+		.acc-detail .p1 {
+			font-size: 12pt;
+			padding: 5px;
+			color: #ffffff;
+			position: absolute;
+			line-height: 1.7;
+			font-family: cursive;
+		}
+		
+		.fifth-div {
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			background-image: url(../images/3.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		
+		.rsvp-div {
+			height: 100%;
+			width: 100%;
+			background-color: aqua;
+			background: radial-gradient(rgb(138, 0, 0) 4%, rgb(92, 0, 0) 9%, rgba(102, 0, 0, 0) 9%), radial-gradient(rgb(138, 0, 0) 4%, rgb(92, 0, 0) 8%, rgba(102, 0, 0, 0) 10%), radial-gradient(rgba(153, 0, 0, 0.8) 20%, rgba(102, 0, 0, 0) 100%), radial-gradient(rgba(153, 0, 0, 0.8) 20%, rgba(102, 0, 0, 0) 100%), radial-gradient(rgb(102, 0, 0) 35%, rgba(102, 0, 0, 0) 60%), radial-gradient(rgb(102, 0, 0) 35%, rgba(102, 0, 0, 0) 60%), radial-gradient(rgba(76, 0, 0, 0.701961) 0, rgba(102, 0, 0, 0) 100%), radial-gradient(rgba(76, 0, 0, 0.701961) 0, rgba(102, 0, 0, 0) 100%), linear-gradient(45deg, rgba(102, 0, 0, 0) 49%, rgb(0, 0, 0) 50%, rgba(102, 0, 0, 0) 70%), linear-gradient(-45deg, rgba(102, 0, 0, 0) 49%, rgb(0, 0, 0) 50%, rgba(102, 0, 0, 0) 70%), rgb(51, 0, 0);
+			background-position: 0 0, 50px 50px, 50px 0, 0 50px, 50px 0, 100px 50px, 0 0, 50px 50px, 0 0, 0 0;
+			background-size: 100px 100px;
+			position: absolute;
+		}
+		
+		.rsvp-text {
+			height: 20%;
+			width: 50%;
+			top: 10%;
+			left: 25%;
+			/*			background-color: aqua;*/
+			position: relative;
+		}
+		
+		.rsvp-text p {
+			text-align: center;
+			color: #fff;
+			font-family: cursive;
+			font-size: 60pt;
+			font-weight: 700;
+		}
+		
+		.rsvp-toran {
+			height: 20%;
+			width: 50%;
+			top: -5%;
+			left: 25%;
+			/*			background-color: aqua;*/
+			background-image: url(../images/toran.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 600px 100px;
+			position: relative;
+		}
+		
+		.rsvp-toran h6 {
+			text-align: center;
+			color: #8a0000;
+			font-family: cursive;
+			font-size: 30pt;
+			font-weight: 500;
+			position: relative;
+			top: 20%;
+		}
+		
+		.rsvp-forget {
+			height: 5%;
+			width: 50%;
+			top: 0%;
+			left: 25%;
+			position: relative;
+		}
+		
+		.rsvp-forget p {
+			text-align: center;
+			color: #fff;
+			font-family: cursive;
+			font-size: 18pt;
+			font-weight: 200;
+		}
+		
+		.rsvp-btn {
+			height: 7%;
+			width: 10%;
+			position: absolute;
+			top: 85%;
+			left: 45%;
+		}
+		
+		.rsvp-btn input[type="button"] {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-color: gold;
+			color: darkblue;
+			font-family: cursive;
+			font-size: 12pt;
+		}
+		
+		.guestname {
+			height: 20%;
+			width: 100%;
+			position: relative;
+			top: 100px;
+			/*			background-color: aqua;*/
+		}
+		
+		.guestname label {
+			font-size: 18pt;
+			font-family: cursive;
+			display: block;
+			position: relative;
+			top: -25px;
+			margin-left: 15px;
+		}
+		
+		.guestname input[type="text"] {
+			width: 85%;
+			height: 5%;
+			background-color: #bdc5f7;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+			border-bottom-color: black;
+			position: relative;
+			top: 35px;
+			margin-left: 15px;
+			outline: none;
+			font-size: 15pt;
+		}
+		
+		.guestname input[type='text']:focus~label {
+			font-size: 12pt;
+			top: -20px;
+			transition: all 0.3s ease;
+		}
+		
+		.guestconfirm {
+			height: 20%;
+			width: 100%;
+			position: relative;
+			top: 140px;
+			/*			background-color: aqua;*/
+		}
+		
+		.guestconfirm label {
+			font-size: 18pt;
+			font-family: cursive;
+			display: block;
+			position: relative;
+			top: -25px;
+			margin-left: 15px;
+		}
+		
+		.guestconfirm input[type="text"] {
+			width: 85%;
+			height: 5%;
+			background-color: #bdc5f7;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+			border-bottom-color: black;
+			position: relative;
+			top: 35px;
+			margin-left: 15px;
+			outline: none;
+			font-size: 15pt;
+		}
+		
+		.guestconfirm input[type='text']:focus~label {
+			font-size: 12pt;
+			top: -20px;
+			transition: all 0.3s ease;
+		}
+		
+		.guestbtn {
+			height: 20%;
+			width: 100%;
+			position: relative;
+			top: 140px;
+			/*			background-color: aqua;*/
+		}
+		
+		.guestbtn input[type='submit'] {
+			position: relative;
+			top: 60px;
+			left: 120px;
+			width: 150px;
+			height: 50px;
+			font-family: cursive;
+			background-color: #fff;
+			border-color: #777;
+			border-style: solid;
+			color: #777;
+			font-size: 13pt;
+			font-weight: 700;
+		}
+		
+		.proud{
+			width: 100%;
+			height: 7%;
+			background-color: #780000;
+			position: absolute;
+			bottom: 0;
+			color: #fff;
+			font-family: cursive;
+			font-size: 12pt;
+		}
+		.proud span{
+			position: relative;
+			left: 3%;
+		}
